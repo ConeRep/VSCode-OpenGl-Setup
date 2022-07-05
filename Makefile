@@ -1,8 +1,6 @@
 CC = g++
 
-LIB_DIR = lib
-
-CFLAGS = -I$(LIB_DIR)/glad -lglfw -lGL -lGLU -lglut -lm -lX11 -lpthread -lXi -lXrandr -ldl
+CFLAGS = -I$(LIB_DIR) -lglfw -lGL -lGLU -lglut -lm -lX11 -lpthread -lXi -lXrandr -ldl
 
 MKDIR_P = mkdir -p
 
